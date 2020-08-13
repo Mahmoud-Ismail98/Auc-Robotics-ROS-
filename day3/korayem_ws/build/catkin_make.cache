@@ -1,2 +1,2 @@
-
+auc_ws
 -DCATKIN_DEVEL_PREFIX=/home/korayem/AucRobotics/day3/korayem_ws/devel -DCMAKE_INSTALL_PREFIX=/home/korayem/AucRobotics/day3/korayem_ws/install -G Unix Makefiles

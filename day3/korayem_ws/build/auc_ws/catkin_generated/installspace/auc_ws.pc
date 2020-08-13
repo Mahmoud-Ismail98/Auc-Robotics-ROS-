@@ -1,0 +1,8 @@
+prefix=/home/korayem/AucRobotics/day3/korayem_ws/install
+
+Name: auc_ws
+Description: Description of auc_ws
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
