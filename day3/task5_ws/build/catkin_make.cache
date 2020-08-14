@@ -1,0 +1,2 @@
+src/ball_chaser:src/my_robot
+-DCATKIN_DEVEL_PREFIX=/home/korayem/AucRobotics/day3/task5_ws/devel -DCMAKE_INSTALL_PREFIX=/home/korayem/AucRobotics/day3/task5_ws/install -G Unix Makefiles

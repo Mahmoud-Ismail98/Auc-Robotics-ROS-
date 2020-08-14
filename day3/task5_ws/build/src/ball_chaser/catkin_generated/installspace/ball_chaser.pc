@@ -1,0 +1,8 @@
+prefix=/home/korayem/AucRobotics/day3/task5_ws/install
+
+Name: ball_chaser
+Description: Description of ball_chaser
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
