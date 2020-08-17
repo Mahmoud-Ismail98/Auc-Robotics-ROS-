@@ -9,7 +9,7 @@ using namespace std;
 double f(double mu, double sigma2, double x)
 {
 
-  double prob = (1/sigma2*sqrt(2*3.14))* exp(-.5 * pow((x-mu/sigma2),2));
+  double prob = (1/sqrt(sigma2*2*3.14))* exp(-.5 * pow((x-mu),2)/sigma2);
 
 
   return (prob);
