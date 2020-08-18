@@ -102,6 +102,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## LIBRARIES: libraries you create in this project that dependent projects also need
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
+
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES light_robot
@@ -122,6 +123,11 @@ include_directories(
 
 add_executable(talker src/pub.cpp)
 target_link_libraries(talker ${catkin_LIBRARIES} )
+#add_dependencies(talker beginner_tutorials_generate_messages_cpp)
+
+add_executable(listener src/sub.cpp)
+target_link_libraries(listener ${catkin_LIBRARIES})
+#add_dependencies(listener beginner_tutorials_generate_messages_cpp)
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/light_robot.cpp
