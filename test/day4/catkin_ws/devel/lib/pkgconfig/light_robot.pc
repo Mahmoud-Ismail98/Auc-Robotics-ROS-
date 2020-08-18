@@ -1,8 +1,0 @@
-prefix=/home/korayem/test/lec/day4/catkin_ws/devel
-
-Name: light_robot
-Description: Description of light_robot
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
