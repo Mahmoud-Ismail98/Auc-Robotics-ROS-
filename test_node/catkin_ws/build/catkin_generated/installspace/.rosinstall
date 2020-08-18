@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/korayem/test/tests/day4/catkin_ws/install/setup.sh
+    local-name: /home/korayem/AucRobotics/test_node/catkin_ws/install/setup.sh

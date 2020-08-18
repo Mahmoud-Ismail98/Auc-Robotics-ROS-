@@ -1,8 +1,8 @@
-# Install script for directory: /home/korayem/test/tests/day4/catkin_ws/src/light_robot
+# Install script for directory: /home/korayem/AucRobotics/test_node/catkin_ws/src/light_robot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/korayem/test/tests/day4/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/korayem/AucRobotics/test_node/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/korayem/test/tests/day4/catkin_ws/build/light_robot/catkin_generated/installspace/light_robot.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/korayem/AucRobotics/test_node/catkin_ws/build/light_robot/catkin_generated/installspace/light_robot.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/light_robot/cmake" TYPE FILE FILES
-    "/home/korayem/test/tests/day4/catkin_ws/build/light_robot/catkin_generated/installspace/light_robotConfig.cmake"
-    "/home/korayem/test/tests/day4/catkin_ws/build/light_robot/catkin_generated/installspace/light_robotConfig-version.cmake"
+    "/home/korayem/AucRobotics/test_node/catkin_ws/build/light_robot/catkin_generated/installspace/light_robotConfig.cmake"
+    "/home/korayem/AucRobotics/test_node/catkin_ws/build/light_robot/catkin_generated/installspace/light_robotConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/light_robot" TYPE FILE FILES "/home/korayem/test/tests/day4/catkin_ws/src/light_robot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/light_robot" TYPE FILE FILES "/home/korayem/AucRobotics/test_node/catkin_ws/src/light_robot/package.xml")
 endif()
 

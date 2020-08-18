@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/korayem/test/tests/day4/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/korayem/AucRobotics/test_node/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/korayem/test/tests/day4/catkin_ws/build
+CMAKE_BINARY_DIR = /home/korayem/AucRobotics/test_node/catkin_ws/build
 
 # Utility rule file for std_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir/build: std_msgs_genera
 .PHONY : light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 
 light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	cd /home/korayem/test/tests/day4/catkin_ws/build/light_robot && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/korayem/AucRobotics/test_node/catkin_ws/build/light_robot && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend:
-	cd /home/korayem/test/tests/day4/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/korayem/test/tests/day4/catkin_ws/src /home/korayem/test/tests/day4/catkin_ws/src/light_robot /home/korayem/test/tests/day4/catkin_ws/build /home/korayem/test/tests/day4/catkin_ws/build/light_robot /home/korayem/test/tests/day4/catkin_ws/build/light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/korayem/AucRobotics/test_node/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/korayem/AucRobotics/test_node/catkin_ws/src /home/korayem/AucRobotics/test_node/catkin_ws/src/light_robot /home/korayem/AucRobotics/test_node/catkin_ws/build /home/korayem/AucRobotics/test_node/catkin_ws/build/light_robot /home/korayem/AucRobotics/test_node/catkin_ws/build/light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : light_robot/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 

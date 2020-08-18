@@ -1,2 +1,2 @@
 light_robot
--DCATKIN_DEVEL_PREFIX=/home/korayem/test/tests/day4/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/korayem/test/tests/day4/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/korayem/AucRobotics/test_node/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/korayem/AucRobotics/test_node/catkin_ws/install -G Unix Makefiles
