@@ -121,12 +121,7 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-add_executable(talker src/pub.cpp)
-target_link_libraries(talker ${catkin_LIBRARIES} )
-#add_dependencies(talker beginner_tutorials_generate_messages_cpp)
 
-add_executable(listener src/sub.cpp)
-target_link_libraries(listener ${catkin_LIBRARIES})
 #add_dependencies(listener beginner_tutorials_generate_messages_cpp)
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
@@ -142,7 +137,12 @@ target_link_libraries(listener ${catkin_LIBRARIES})
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/light_robot_node.cpp)
+add_executable(talker src/pub.cpp)
+#target_link_libraries(talker ${catkin_LIBRARIES} )
+#add_dependencies(talker beginner_tutorials_generate_messages_cpp)
 
+#add_executable(listener src/sub.cpp)
+#target_link_libraries(listener ${catkin_LIBRARIES})
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -157,7 +157,7 @@ target_link_libraries(listener ${catkin_LIBRARIES})
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
-
+target_link_libraries(talker ${catkin_LIBRARIES} )
 #############
 ## Install ##
 #############
