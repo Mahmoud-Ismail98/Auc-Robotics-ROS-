@@ -4,7 +4,7 @@ import rospy
 from light_robot.msg import complex
 
 def callback(comp):
-    rospy.loginfo("real is %d, img is %d",comp.real,comp.imaginary)
+    rospy.loginfo("real is %d, img is %d",comp.real,comp.img)
 
 
 def listener():
