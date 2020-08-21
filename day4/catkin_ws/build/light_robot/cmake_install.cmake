@@ -33,6 +33,10 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/light_robot/msg" TYPE FILE FILES "/home/korayem/AucRobotics/day4/catkin_ws/src/light_robot/msg/complex.msg")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/light_robot/srv" TYPE FILE FILES "/home/korayem/AucRobotics/day4/catkin_ws/src/light_robot/srv/WordCount.srv")
 endif()
 

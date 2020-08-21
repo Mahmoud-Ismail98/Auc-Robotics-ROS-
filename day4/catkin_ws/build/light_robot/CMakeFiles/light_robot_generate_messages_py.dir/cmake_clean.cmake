@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/light_robot_generate_messages_py"
+  "/home/korayem/AucRobotics/day4/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/_complex.py"
   "/home/korayem/AucRobotics/day4/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/_WordCount.py"
+  "/home/korayem/AucRobotics/day4/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/msg/__init__.py"
   "/home/korayem/AucRobotics/day4/catkin_ws/devel/lib/python2.7/dist-packages/light_robot/srv/__init__.py"
 )
 

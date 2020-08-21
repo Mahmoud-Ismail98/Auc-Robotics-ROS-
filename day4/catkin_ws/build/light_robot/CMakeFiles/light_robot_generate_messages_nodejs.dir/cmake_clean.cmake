@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/light_robot_generate_messages_nodejs"
+  "/home/korayem/AucRobotics/day4/catkin_ws/devel/share/gennodejs/ros/light_robot/msg/complex.js"
   "/home/korayem/AucRobotics/day4/catkin_ws/devel/share/gennodejs/ros/light_robot/srv/WordCount.js"
 )
 

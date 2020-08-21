@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/light_robot_generate_messages_cpp"
+  "/home/korayem/AucRobotics/day4/catkin_ws/devel/include/light_robot/complex.h"
   "/home/korayem/AucRobotics/day4/catkin_ws/devel/include/light_robot/WordCount.h"
 )
 
