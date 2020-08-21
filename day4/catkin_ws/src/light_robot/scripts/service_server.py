@@ -2,7 +2,7 @@
 
 import rospy
 
-from light_robot.srv import WordCount,WordCountResponse
+from light_robot.srv import WordCount,WordCountResponse ,WordCountRequest
 
 
 def count_words(request):

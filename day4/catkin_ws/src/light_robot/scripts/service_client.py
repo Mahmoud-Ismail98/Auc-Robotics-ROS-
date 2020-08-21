@@ -2,10 +2,9 @@
 
 import rospy
 
-from light_robot.srv import WordCount
+from light_robot.srv import WordCount,WordCountResponse ,WordCountRequest
 
 import sys
-
 
 rospy.init_node('service_client')
 
