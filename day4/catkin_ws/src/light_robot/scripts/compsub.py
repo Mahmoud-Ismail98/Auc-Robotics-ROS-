@@ -11,6 +11,8 @@ def listener():
     rospy.init_node("complexnode2",anonymous=True)
     rospy.Subscriber("/compnum",complex,callback)
     rospy.spin()
+
     
+if __name__ == "__main__":
 
 listener()
