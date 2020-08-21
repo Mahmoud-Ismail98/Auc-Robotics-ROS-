@@ -1,0 +1,8 @@
+prefix=/home/korayem/AucRobotics/day4/catkin_ws/devel
+
+Name: dayfour_ws
+Description: Description of dayfour_ws
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
