@@ -7,7 +7,7 @@ from std_msgs.msg import Int32
 
 
 def callback(data):
-    rospy.loginfo("I hear random  %d",data.data)
+    rospy.loginfo("I hear count  %d",data.data)
 
 def pubsub():
     rospy.init_node("PubSub",anonymous=True)
@@ -18,7 +18,8 @@ def pubsub():
 
 
 	count=0	    
-	while not rospy.is_shutdown():
+	#while not rospy.is_shutdown ():
+	while ():	
 	#num = 4 + (random.random()*2)        
 	pub.publish(count)
         rate.sleep()
@@ -29,3 +30,5 @@ def pubsub():
 
 if __name__ == '__main__':
      pubsub()
+
+
